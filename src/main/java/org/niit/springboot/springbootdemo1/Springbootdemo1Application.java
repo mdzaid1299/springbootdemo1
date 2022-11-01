@@ -18,11 +18,7 @@ public class Springbootdemo1Application {
 		ApplicationContext context = SpringApplication.run(Springbootdemo1Application.class, args);
 		Message message = context.getBean("message", Message.class);
 		message.greet();
-		ApplicationContext context1 = new AnnotationConfigApplicationContext(BookConfig.class);
-		Book book = context1.getBean("book", Book.class);
-		System.out.println(book);
-		Book book1 = context1.getBean("book1", Book.class);
-		System.out.println(book1);
+
 	}
 
 }

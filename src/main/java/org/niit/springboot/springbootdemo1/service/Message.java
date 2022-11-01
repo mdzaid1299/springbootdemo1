@@ -5,6 +5,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class Message {
     public void greet(){
-        System.out.println("Welcome");
+        System.out.println("Hello");
     }
 }
