@@ -1,6 +1,5 @@
 package org.niit.springboot.springbootdemo1;
 
-import org.niit.springboot.springbootdemo1.config.BookConfig;
 import org.niit.springboot.springbootdemo1.service.Book;
 import org.niit.springboot.springbootdemo1.service.Message;
 import org.springframework.boot.SpringApplication;
@@ -12,7 +11,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class Springbootdemo1Application {
 
 	public static void main(String[] args) {
-		System.out.println("Hello WOrld");
+		System.out.println("Hello World");
 
 
 		ApplicationContext context = SpringApplication.run(Springbootdemo1Application.class, args);
